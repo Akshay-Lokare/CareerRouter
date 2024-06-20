@@ -6,14 +6,16 @@ export default function CareerDetails() {
 
     return(
         <div className="career-details">
+
             <h2> Career Details for {career.title} </h2>
             <h2> Salary - {career.salary} </h2>
+            
             <div className="details">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed sunt ipsam quam assumenda quasi ipsa facilis laborum rerum voluptatem!</p>
             </div>
+
         </div>
     );
-
 }
 
 export const careerDetailsLoader = async ({ params }) => {

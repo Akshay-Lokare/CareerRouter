@@ -1,5 +1,6 @@
 export default function Faq() {
     return (
+
         <div className="faq">
         <h3>Frequently Asked Questions</h3>
 
@@ -30,4 +31,4 @@ export default function Faq() {
 
         </div>
     )
-    }
+}

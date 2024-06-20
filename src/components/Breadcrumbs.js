@@ -15,7 +15,7 @@ export default function Breadcrumbs() {
                     <Link to={currentLink}> {crumb} </Link>
                 </div>
             );
-        })
+        });
 
     return(
         <div className="breadcrumbs">

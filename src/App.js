@@ -6,19 +6,19 @@ import {
 } from 'react-router-dom'
 
 // pages
-import Home from './pages/Home'
-import About from './pages/About'
-import Faq from './pages/help/faq'
-import Contact, { contactAction } from './pages/help/contact'
-import NotFound from './pages/NotFound'
-import Careers, { careersLoader } from './pages/careers/Careers'
-import CareerDetails, { careerDetailsLoader } from './pages/careers/CareerDetails'
-import CareerError from './pages/careers/CareerError'
+import Home from './pages/Home';
+import About from './pages/About';
+import Faq from './pages/help/faq';
+import Contact, { contactAction } from './pages/help/contact';
+import NotFound from './pages/NotFound';
+import Careers, { careersLoader } from './pages/careers/Careers';
+import CareerDetails, { careerDetailsLoader } from './pages/careers/CareerDetails';
+import CareerError from './pages/careers/CareerError';
 
 // layouts
-import RootLayout from './layouts/RootLayout'
-import HelpLayout from './layouts/HelpLayout'
-import CareersLayout from './layouts/CareersLayout'
+import RootLayout from './layouts/RootLayout';
+import HelpLayout from './layouts/HelpLayout';
+import CareersLayout from './layouts/CareersLayout';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -60,4 +60,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
